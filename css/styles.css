@@ -98,6 +98,7 @@ p {
 	max-width: 20rem;
 	max-height: 31rem;
 	background-color: var(--white);
+	box-shadow: 0.5rem 0.5rem 1rem #CCD7E5;
 }
 
 main {
