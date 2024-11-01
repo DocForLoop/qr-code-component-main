@@ -1,0 +1,119 @@
+/* outfit-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* outfit-700 - latin */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+
+:root {
+    --slate-900:#1F314F;
+    --slate-500:#68778D;
+    --slate-300:#D5E1EF;
+    --white:#FFF;
+}
+
+body {
+	background-color: var(--slate-300);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.625rem;
+	margin-bottom: 1.5rem;
+}
+
+h1 {
+	font-family: 'Outfit', sans-serif;
+	font-weight: 700;
+	font-size: 1.375rem;
+	line-height: 120%;
+	letter-spacing: 0;
+	margin-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: var(--slate-900);
+}
+
+p {
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	line-height: 140%;
+	letter-spacing: 0.0125rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: var(--slate-500);
+}
+
+.qr-card {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 1rem 1rem 2.5rem 1rem;
+	border-radius: 1.25rem;
+	text-align: center;
+	max-width: 20rem;
+	max-height: 31rem;
+	background-color: var(--white);
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.attribution { 
+	font-size: 1rem; 
+	text-align: center;
+	padding: 1rem;
+ }
+.attribution a { 
+	color: hsl(233, 82%, 53%);
+ }
+
