@@ -104,14 +104,15 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
-	height: 100vh;
+	padding: 10vh 0;
+	min-height: calc(100vh - 20vh);
 }
 
 .attribution { 
 	font-size: 1rem; 
 	text-align: center;
 	padding: 1rem;
+	margin-top: 2rem;
  }
 .attribution a { 
 	color: hsl(233, 82%, 53%);
